@@ -4,6 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(248, 246, 246);
 }
+
 .carousel .item {
   height: 300px;
 }
@@ -19,8 +20,6 @@ body {
   position: relative;
   display: inline-block;
 }
-
-
 
 .carousel .carousel-item {
   height: 500px;
@@ -79,9 +78,62 @@ footer {
   user-select: none;
 }
 
-
 .nav-item {
   display: block;
+}
+
+#avatar {
+  background-image: url('https://images.unsplash.com/photo-1579298245158-33e8f568f7d3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1367&q=80');
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+}
+
+#avatar2 {
+  background-image: url('https://images.unsplash.com/photo-1505248254168-1de4e1abfa78?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80');
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+}
+
+#avatar3 {
+  background-image: url('https://images.unsplash.com/photo-1495121864268-11b119abeba0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+}
+
+#avatar4 {
+  background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80');
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+}
+
+#avatar5 {
+  background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+}
+
+#avatar6 {
+  background-image: url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
 }
 
 @media (min-width: 768px) {
