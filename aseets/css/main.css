@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(248, 246, 246);
+}
 .carousel .item {
   height: 300px;
 }
@@ -16,12 +20,29 @@
   display: inline-block;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
+
 
 .carousel .carousel-item {
   height: 500px;
+}
+
+.site-heading h2 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.site-heading h2 span {
+  color: #00a01d;
+}
+
+.site-heading h4 {
+  display: inline-block;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
 }
 
 .carousel-item img {
@@ -32,17 +53,39 @@ body {
   object-fit: contain;
   min-height: 500px;
 }
+
 .marker {
   font-family: 'Hachi Maru Pop', cursive;
 }
+
 footer {
   /* margin-top: 12rem; */
   background-color: #000066;
 }
+
 .aboutus {
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+
+.nav-item {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
